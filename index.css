@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: #432818;
+    text-align: center;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 14px;
+    color: black;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.fas {
+    align-self: flex-start;
+
+    width: 8%;
+}
+
+.info-label {
+    align-self: flex-start;
+
+    padding-left: 2%;
+}
+
+.info-row {
+    flex-direction: row;
+
+    padding: 4%;
+}
+
+.info-value {
+    position: absolute;
+    right: 4%;
+}
+
+.more-link {
+    width: 35px;
+    height: 35px;
+    color: black;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.more-link:hover {
+    color: blue;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+}
+
+#card {
+    position: relative;
+    top: 8%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 4%;
+    width: 250px;
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+#info {
+    height: 135px;
+    background-color: rgb(255, 255, 255);
+}
+
+#profile-image {
+    border: 4px tan solid;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 160px;
+    height: 160px;
+    transition: 0.5s all linear;
+}
+
+#profile-image:hover {
+    transform: rotate(360deg);
+    border-color: rgb(58, 41, 17);
+}
+
+#top {
+    height: 200px;
+}
