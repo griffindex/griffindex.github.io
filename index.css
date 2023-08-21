@@ -5,7 +5,7 @@ body, html {
     width: 100%;
     height: 100%;
     padding: 0;
-    background-color: #432818;
+    background-color: #e5ccae;
     text-align: center;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 14px;
@@ -26,14 +26,12 @@ p {
 }
 
 .info-label {
-    align-self: flex-start;
-
+    text-align: left;
     padding-left: 2%;
 }
 
 .info-row {
     flex-direction: row;
-
     padding: 4%;
 }
 
@@ -77,8 +75,8 @@ p {
     margin: auto;
     border: 2px black solid;
     border-radius: 4%;
-    width: 250px;
-    height: 375px;
+    width: 350px;
+    height: 420px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -94,7 +92,7 @@ p {
 }
 
 #info {
-    height: 135px;
+    height: 180px;
     background-color: rgb(255, 255, 255);
 }
 
