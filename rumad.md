@@ -1,14 +1,16 @@
-<!DOCTYPE HTML>
-<html lang="en-GB">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="griffindex" />
-    <meta name="description" content="A profile card made using css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Are You Mad?</title>
-    <link rel="stylesheet" type="text/css" href="rumad.css" />
+  <link rel="stylesheet" type="text/css" href="rumad.css">
 </head>
 <body>
-<h1>Are You Mad At Ariel?<h1>
-<p class="onoff"><input type="checkbox" value="1" id="checkboxID"><label for="checkboxID"></label></p>
+<main id="card">
+        <section id="top">
+        <h1>Are You Mad?</h1>
+  <button id="incrementButton">Yes</button>
+  <button id="incrementButton">No</button>
+  <div id="counter">0</div>
+  <div id="counter">0</div>
+  <script src="button.js"></script>
 </body>
+</html>
